@@ -1,0 +1,74 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: black;
+    color: darkorange;
+    padding: 5px;
+    font-weight: bold;
+}
+nav > .three-bars {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav > ul {
+    overflow: hidden;
+    text-align: center;
+    height: 0px;
+    animation-duration: .6s;
+}
+nav > ul > li {
+    width: 35%;
+    margin: 10px auto 10px auto;
+    list-style: none;
+}
+nav > ul > li > a > span {
+    display: flex;
+    float: left;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+nav > ul > li > a > p {
+    width: fit-content;
+    font-size: 18px;
+}
+hr {
+    opacity: .5;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: darkorange;
+}
+@keyframes increaseMenu {
+    from {
+        height: 0px;
+    } to {
+        height: 320px;
+    }
+}
+@keyframes decreaseMenu {
+    from {
+        height: 320px;
+    } to {
+        height: 0px;
+    }
+}
