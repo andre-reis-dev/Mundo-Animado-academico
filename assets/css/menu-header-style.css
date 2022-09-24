@@ -77,7 +77,7 @@ nav > ul > li > a {
 
 @media only screen and (min-width: 600px) {
     nav > .three-bars {
-        font-size: 60px;
+        font-size: 40px;
     }
     nav > ul {
         animation-fill-mode: forwards;
@@ -142,8 +142,8 @@ nav > ul > li > a {
         justify-content: center;
         align-items: center;
         text-align: center;
-        min-height: 60px;
-        max-height: 100px;
+        min-height: 25px;
+        max-height: 35px;
     }
     nav > ul > li > a:hover {
         border-bottom: 3px solid darkorange;
