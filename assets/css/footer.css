@@ -3,3 +3,10 @@ footer{
         margin-top: 10px;
         color: orange;
 }
+.img1{
+        float: right;
+}
+
+.img2{
+        float: left;
+}
