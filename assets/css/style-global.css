@@ -24,7 +24,13 @@
     background-color: darkorange;
     color: rgb(255, 255, 255);
 }
-p {
+main > .row1 > p {
+    display: inline-flex;
+}
+main > .row2 > p {
+    display: inline-flex;
+}
+main > .row3 > p {
     display: inline-flex;
 }
 
