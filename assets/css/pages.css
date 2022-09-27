@@ -40,7 +40,7 @@
 #main > aside > .link1, .link2, .link3 {
     box-shadow: 0px 0px 5px rgba(0,0,0,0.350);
     border-radius: 10px;
-    margin: 10px 0px;
+    margin: 10px auto;
     width: 100%;
 }
 #main > aside > .link1 {
@@ -70,7 +70,20 @@
     background-image: url(../img/podium-animations.jpg);
     background-position: center;
     background-size: 100%;
+    display: flex;
     height: 200px;
+    align-items: flex-end;
+    justify-content: center;
+}
+#main > aside > .link2 > h2 {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.350);
 }
 #main > aside > .link2:hover {
     cursor: pointer;
@@ -81,7 +94,20 @@
     background-image: url(../img/dreamworks.jpg);
     background-position: center;
     background-size: 100%;
+    display: flex;
     height: 200px;
+    align-items: flex-end;
+    justify-content: center;
+}
+#main > aside > .link3 > h2 {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.350);
 }
 #main > aside > .link3:hover {
     cursor: pointer;
@@ -105,6 +131,16 @@
         margin: auto;
         width: 95%;
     }
+
+    #main > aside > .link1 {
+        height: 250px;
+    }
+    #main > aside > .link2 {
+        height: 250px;
+    }
+    #main > aside > .link3 {
+        height: 250px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -127,4 +163,19 @@
         overflow: hidden;
     }
     
+    #main > aside {
+        text-align: center;
+    }
+    #main > aside > .link1 {
+        width: 80%;
+    }
+    #main > aside > .link2 {
+        width: 80%;
+    }
+    #main > aside > .link3 {
+        width: 80%;
+    }
+    #main > aside > .link1, .link2, .link3 {
+        margin-top: 30px;
+    }
 }
