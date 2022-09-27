@@ -1,0 +1,37 @@
+#main {
+    padding: 5px;
+}
+#main > h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+#main > .img-container {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#main > .img-container > img {
+    width: 100%;
+}
+
+
+#main > article {
+    background-color: whitesmoke;
+    
+}
+#main > article > .box-andre, .box-enzo, .box-felipe, .box-miguel {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.350);
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
+
+@media only screen and (min-width:600px) {
+    #main {
+
+    }
+}
+@media only screen and (min-width:1024px) {
+
+}
