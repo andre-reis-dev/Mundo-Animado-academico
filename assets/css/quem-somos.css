@@ -3,7 +3,7 @@
 }
 #main > h1 {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 #main > .img-container {
     height: 200px;
@@ -39,16 +39,13 @@ article > .box-andre > h2, .box-enzo > h2, .box-felipe > h2, .box-miguel > h2 {
 }
 article > .box-andre > p, .box-enzo > p, .box-felipe > p, .box-miguel > p {
     text-align: justify;
-    padding: 0px 10px;
+    padding: 5px;
 }
 
 
 @media only screen and (min-width:600px) {
     .img-busto {
         width: 35%;
-    }
-    article {
-        margin: 0px 30px;
     }
     #main > .img-container {
         height: 280px;
@@ -58,18 +55,15 @@ article > .box-andre > p, .box-enzo > p, .box-felipe > p, .box-miguel > p {
     article {
         background-color: white;
     }
-    .box-andre, .box-enzo, .box-felipe, .box-miguel {
+    #main > article > .box-andre, .box-enzo, .box-felipe, .box-miguel {
         box-shadow: 0px 0px 5px rgba(0,0,0,0.350);
         background-color: white;
-        width: 90%;
+        width: 100%;
         border-radius: 50px;
         padding: 20px;
+        margin-bottom: 40px;
     }
-    .box-andre {
-        box-shadow: 0px 0px 5px rgba(0,0,0,0.350);
-        background-color: white;
-        width: 90%;
-        border-radius: 50px;
-        padding: 20px;
+    #main > .img-container {
+        height: 400px;
     }
 }
