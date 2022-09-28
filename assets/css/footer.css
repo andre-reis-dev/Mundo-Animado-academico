@@ -5,8 +5,10 @@ footer{
         color: orange;
 }
 .left {
-        width: 33%;
+        width: 38%;
         display: inline-block;
+        float: right;
+        align-items: center;
         
 }
 .left > img {
@@ -17,6 +19,7 @@ footer{
         width: 33%;
         display: inline-block;
         float: left;
+        align-items: center;
 }
 .right > img {
         width: 70%;
@@ -24,4 +27,7 @@ footer{
 .center {
         width: 33%;
         text-align: center;
+        display: flex;
+        align-items: center;
+        
 }
