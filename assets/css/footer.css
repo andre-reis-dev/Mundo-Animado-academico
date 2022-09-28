@@ -1,12 +1,27 @@
 footer{
+        display: flex;
         background-color: black  ;
         margin-top: 10px;
         color: orange;
 }
-.img1{
-        float: right;
+.left {
+        width: 33%;
+        display: inline-block;
+        
+}
+.left > img {
+        width: 70%;
 }
 
-.img2{
+.right {
+        width: 33%;
+        display: inline-block;
         float: left;
+}
+.right > img {
+        width: 70%;
+}
+.center {
+        width: 33%;
+        text-align: center;
 }
