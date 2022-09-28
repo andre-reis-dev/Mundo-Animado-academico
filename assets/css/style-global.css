@@ -17,6 +17,87 @@
 .col-sm-11 {width: 91.66%;}
 .col-sm-12 {width: 100%;}
 
+.title {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    color: rgb(255, 255, 255);
+}
+main > .row1 > p {
+    display: inline-flex;
+}
+main > .row2 > p {
+    display: inline-flex;
+}
+main > .row3 > p {
+    display: inline-flex;
+}
+
+main {
+    margin-top: 10px;
+}
+main > .row1 {
+    padding: 5px;
+}
+main > .row1 > .title > span {
+    margin-right: 10px;
+} 
+main > .row1 > a {
+    display: flex;
+    justify-content: center;
+}
+main > .row1 > a > img {
+    width: 100%;
+}
+main > .row1 > p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+main {
+    margin-top: 10px;
+}
+main > .row2 {
+    padding: 5px;
+}
+main > .row2 > .title > span {
+    margin-right: 10px;
+} 
+main > .row2 > a {
+    display: flex;
+    justify-content: center;
+}
+main > .row2 > a > img {
+    width: 100%;
+}
+main > .row2 > p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+main {
+    margin-top: 10px;
+}
+main > .row3 {
+    padding: 5px;
+}
+main > .row3 > .title > span {
+    margin-right: 10px;
+} 
+main > .row3 > a {
+    display: flex;
+    justify-content: center;
+}
+main > .row3 > a > img {
+    width: 80%;
+}
+main > .row3 > p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+
 @media only screen and (min-width: 600px) {
     .col-md-1 {width: 8.33%;}
     .col-md-2 {width: 16.66%;}
@@ -30,7 +111,44 @@
     .col-md-10 {width: 83.33%;}
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
-}
+
+    main > .row1 > .title {
+        border-radius: 0px 60px 60px 0px;
+    }
+    main > .row1 > a {
+        margin-top: 10px;
+    }
+    main > .row1 > p {
+        float: right;
+        margin-right: 35px;
+    }
+
+    main > .row2 > .title {
+        border-radius: 60px 0px 0px 60px;
+        float: right;
+    }
+    main > .row2 > a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+    }
+    main > .row2 > p {
+        float: left;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    main > .row3 > .title {
+        border-radius: 0px 60px 60px 0px;
+    }
+    main > .row3 > a {
+        margin-top: 10px;
+    }
+    main > .row3 > p {
+        float: right;
+        margin-right: 35px;
+    }
+}    
 
 @media only screen and (min-width: 1024px) {
     .col-lg-1 {width: 8.33%;}
@@ -45,4 +163,8 @@
     .col-lg-10 {width: 83.33%;}
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
+
+    main > div > p {
+        margin-top: 25%;
+    }
 }
