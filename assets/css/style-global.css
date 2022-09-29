@@ -17,6 +17,40 @@
 .col-sm-11 {width: 91.66%;}
 .col-sm-12 {width: 100%;}
 
+.slider {
+    height: 230px;
+    overflow: hidden;
+}
+.slides {
+    width: 100%;
+}
+.slides:not(:first-child) {
+    display: none;
+}
+.dots-container {
+    margin-top: -25px;
+    text-align: center;
+}
+.dots {
+    border: 2px solid darkorange;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+}
+.dots:not(:last-child) {
+    margin-right: 10px;
+}
+.dots:hover {
+    cursor: pointer;
+    background-color: darkorange;
+    transition: .5s;
+}
+.active {
+    background-color: darkorange;
+    transition: .5s;
+}
+
 .title {
     display: inline-flex;
     justify-content: center;
