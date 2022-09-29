@@ -43,8 +43,6 @@
 }
 .dots:hover {
     cursor: pointer;
-    background-color: darkorange;
-    transition: .5s;
 }
 .active {
     background-color: darkorange;
