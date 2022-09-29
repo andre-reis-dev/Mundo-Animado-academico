@@ -1,0 +1,69 @@
+#main {
+    padding: 5px;
+}
+#main > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main > .img-container {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#main > .img-container > img {
+    width: 100%;
+}
+
+
+
+#main > article > .box-andre, .box-enzo, .box-felipe, .box-miguel {
+    margin: 10px auto;
+    padding: 5px;
+}
+ .img-busto {
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    
+}
+#main > article > .box-andre > .img-busto > img,.box-enzo > .img-busto > img, .box-felipe > .img-busto > img, .box-miguel > .img-busto > img {
+    width: 100%;
+    
+}
+article > .box-andre > h2, .box-enzo > h2, .box-felipe > h2, .box-miguel > h2 {
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 5px;
+}
+article > .box-andre > p, .box-enzo > p, .box-felipe > p, .box-miguel > p {
+    text-align: justify;
+    padding: 5px;
+}
+
+
+@media only screen and (min-width:600px) {
+    .img-busto {
+        width: 35%;
+    }
+    #main > .img-container {
+        height: 280px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    article {
+        background-color: white;
+    }
+    #main > article > .box-andre, .box-enzo, .box-felipe, .box-miguel {
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.350);
+        background-color: white;
+        width: 100%;
+        border-radius: 50px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    #main > .img-container {
+        height: 400px;
+    }
+}

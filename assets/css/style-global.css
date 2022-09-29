@@ -17,6 +17,39 @@
 .col-sm-11 {width: 91.66%;}
 .col-sm-12 {width: 100%;}
 
+.slider {
+    height: 230px;
+    overflow: hidden;
+    margin: auto;
+}
+.slides {
+    width: 100%;
+}
+.slides:not(:first-child) {
+    display: none;
+}
+.dots-container {
+    margin-top: -25px;
+    text-align: center;
+}
+.dots {
+    border: 2px solid darkorange;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+}
+.dots:not(:last-child) {
+    margin-right: 10px;
+}
+.dots:hover {
+    cursor: pointer;
+}
+.active {
+    background-color: darkorange;
+    transition: .8s;
+}
+
 .title {
     display: inline-flex;
     justify-content: center;
@@ -112,6 +145,10 @@ main > .row3 > p {
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
 
+    .slider {
+        height: 300px;
+    }
+
     main > .row1 > .title {
         border-radius: 0px 60px 60px 0px;
     }
@@ -163,6 +200,10 @@ main > .row3 > p {
     .col-lg-10 {width: 83.33%;}
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
+
+    .slider {
+        height: 400px;
+    }
 
     main > div > p {
         margin-top: 25%;
