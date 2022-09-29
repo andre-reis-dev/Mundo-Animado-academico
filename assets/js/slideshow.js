@@ -9,7 +9,7 @@ function toggleImages() {
     let slides = document.getElementsByClassName('slides')
     let buttons = document.getElementsByClassName('dots')
 
-    if (slideIndex > toggleImages.length - 1) {
+    if (slideIndex > slides.length - 1) {
         slideIndex = 0
     }
 
@@ -23,5 +23,5 @@ function toggleImages() {
     slides[slideIndex].style.display = 'block'
     buttons[slideIndex].classList.add('active')
     slideIndex++
-    setTimeout (toggleImages, 2000)
+    setTimeout (toggleImages, 5000)
 } 
